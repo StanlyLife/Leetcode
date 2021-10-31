@@ -1,4 +1,5 @@
 ﻿using BenchmarkDotNet.Running;
+using Leetcode_Console.Longest_common_prefix;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +12,8 @@ namespace Leetcode_Console
         static void Main(string[] args)
         {
             //new Match().Start();
-            var summary = BenchmarkRunner.Run<ContainerWithMostWater> ();
-            new ContainerWithMostWater().Start();
+            //new ContainerWithMostWater().Start();
+            new LongestCommonPrefix().start();
         }
 
         

@@ -1,4 +1,5 @@
 ﻿using BenchmarkDotNet.Running;
+using Leetcode_Console.BinaryGap;
 using Leetcode_Console.Longest_common_prefix;
 using System;
 using System.Collections.Generic;
@@ -13,9 +14,11 @@ namespace Leetcode_Console
         {
             //new Match().Start();
             //new ContainerWithMostWater().Start();
-            new LongestCommonPrefix().start();
+            //new LongestCommonPrefix().start();
+            new BinaryGapC().Start();
         }
 
-        
+
+
     }
 }

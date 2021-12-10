@@ -1,6 +1,7 @@
 ﻿using BenchmarkDotNet.Running;
 using Leetcode_Console.BinaryGap;
 using Leetcode_Console.Longest_common_prefix;
+using Leetcode_Console.Recursion;
 using Leetcode_Console.ShortestComboGapReplace;
 using System;
 using System.Collections.Generic;
@@ -17,7 +18,8 @@ namespace Leetcode_Console
             //new ContainerWithMostWater().Start();
             //new LongestCommonPrefix().start();
             //new BinaryGapC().Start();
-            new ShortestComboGapReplacer().Start();
+            //new ShortestComboGapReplacer().Start();
+            new RecursionTraining().Start();
         }
 
 

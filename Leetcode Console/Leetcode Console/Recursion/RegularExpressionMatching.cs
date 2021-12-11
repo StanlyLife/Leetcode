@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Leetcode_Console.Recursion
 {
     public  class RegularExpressionMatching
@@ -22,7 +18,8 @@ namespace Leetcode_Console.Recursion
             foreach(var o in obj)
             {
 
-                var result = recursion(new string(o.s.ToCharArray().Reverse().ToArray()), new string(o.p.ToCharArray().Reverse().ToArray()));
+                //var result = recursion(new string(o.s.ToCharArray().Reverse().ToArray()), new string(o.p.ToCharArray().Reverse().ToArray()));
+                var result = recursion(Reverse(o.s),Reverse(o.p));
                 Console.WriteLine("@@@@@@@@@@@@@@@@@@@@@@@@@@@");
                 Console.WriteLine(result);
             }
@@ -50,12 +47,12 @@ namespace Leetcode_Console.Recursion
         }
 
 
-        //public static string Reverse(string s)
-        //{
-        //    char[] charArray = s.ToCharArray();
-        //    Array.Reverse(charArray);
-        //    return new string(charArray);
-        //}
+        public static string Reverse(string s)
+        {
+            char[] charArray = s.ToCharArray();
+            Array.Reverse(charArray);
+            return new string(charArray);
+        }
 
         //public bool HandleStars(string s, string p)
         //{

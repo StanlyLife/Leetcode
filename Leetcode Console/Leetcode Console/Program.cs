@@ -1,6 +1,7 @@
 ﻿using BenchmarkDotNet.Running;
 using Leetcode_Console.BinaryGap;
 using Leetcode_Console.Longest_common_prefix;
+using Leetcode_Console.Longest_Palindromic_Substring;
 using Leetcode_Console.Recursion;
 using Leetcode_Console.ShortestComboGapReplace;
 using System;
@@ -20,7 +21,8 @@ namespace Leetcode_Console
             //new BinaryGapC().Start();
             //new ShortestComboGapReplacer().Start();
             //new RecursionTraining().Start();
-            new RegularExpressionMatching().Start();
+            //new RegularExpressionMatching().Start();
+            new LPS().Start();
         }
 
 

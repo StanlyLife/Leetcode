@@ -19,7 +19,8 @@ namespace Leetcode_Console
             //new LongestCommonPrefix().start();
             //new BinaryGapC().Start();
             //new ShortestComboGapReplacer().Start();
-            new RecursionTraining().Start();
+            //new RecursionTraining().Start();
+            new RegularExpressionMatching().Start();
         }
 
 
